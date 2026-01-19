@@ -31,9 +31,20 @@ ENV/
 # Django
 *.log
 local_settings.py
-db.sqlite3
+# db.sqlite3
 db.sqlite3-journal
 media/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # Node / Next.js (Frontend)
 accounting_frontend/node_modules/
@@ -44,10 +55,37 @@ accounting_frontend/.DS_Store
 accounting_frontend/.env*.local
 accounting_frontend/.vercel
 
-# IDEs
-.vscode/
-.idea/
+# dependencies
+accounting_frontend/.pnp
+accounting_frontend/.pnp.*
+accounting_frontend/.yarn/*
+accounting_frontend/.yarn/patches
+accounting_frontend/.yarn/plugins
+accounting_frontend/.yarn/releases
+accounting_frontend/.yarn/versions
 
-# OS
-.DS_Store
-Thumbs.db
+# testing
+accounting_frontend/coverage
+
+# production
+accounting_frontend/build
+
+# misc
+accounting_frontend/.DS_Store
+*.pem
+
+# debug
+accounting_frontend/npm-debug.log*
+accounting_frontend/yarn-debug.log*
+accounting_frontend/yarn-error.log*
+accounting_frontend/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+accounting_frontend/.env*
+
+# vercel
+accounting_frontend/.vercel
+
+# typescript
+accounting_frontend/*.tsbuildinfo
+accounting_frontend/next-env.d.ts

@@ -10,6 +10,24 @@ This project is a comprehensive Indian accounting software solution. It consists
     - `core/`: Core utilities and base configurations.
     - `users/`: User authentication and management.
 - `accounting_frontend/`: The Next.js Frontend application.
+    - `src/app/`: App Router pages and layouts.
+    - `src/components/`: Reusable UI components.
+    - `public/`: Static assets.
+
+## Tech Stack
+
+### Backend
+- **Framework**: Django
+- **API**: Django REST Framework
+- **Database**: SQLite (Development)
+
+### Frontend
+- **Framework**: Next.js 16 (App Router)
+- **Library**: React 19
+- **Styling**: Tailwind CSS 4
+- **UI Components**: Radix UI
+- **Icons**: Lucide React
+- **HTTP Client**: Axios
 
 ## Setup Instructions
 
